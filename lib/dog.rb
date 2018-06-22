@@ -13,4 +13,10 @@ class Dog
       @@all.clear
   end
 
+  def self.all 
+    @all.each do |song| 
+      puts song
+    end
+  end
+
 end
