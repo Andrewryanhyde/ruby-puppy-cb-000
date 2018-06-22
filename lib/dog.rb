@@ -11,6 +11,7 @@ class Dog
 
   def clear_all(array)
       array.clear
+      array
   end
 
 end
