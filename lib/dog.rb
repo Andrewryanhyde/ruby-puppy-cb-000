@@ -10,7 +10,11 @@ class Dog
   end
 
   def clear_all
-    @@all.clear
+    i = 0 
+    while i < @@all.length 
+      @@all[i].delete
+      i+=1
+    end
   end
 
 end
