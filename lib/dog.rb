@@ -15,7 +15,7 @@ class Dog
 
   def self.all
     @all.each do |song|
-      puts song
+      puts song.name
     end
   end
 
